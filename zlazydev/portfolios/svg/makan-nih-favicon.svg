@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Makan Nih">
+  <rect width="64" height="64" fill="#c8552b"/>
+  <path d="M20 38h24a12 12 0 0 1-24 0Z" fill="#ffffff"/>
+  <path d="M18 38h28" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M26 28c-2.5-3 2.5-4 0-7M32 28c-2.5-3 2.5-4 0-7M38 28c-2.5-3 2.5-4 0-7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

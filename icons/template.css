@@ -1,0 +1,96 @@
+@font-face { font-family: 'icons-outlined-100'; src: url('/src/assets/icons/static/icons-outlined-100.woff2') format('woff2'); font-weight: 100; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-200'; src: url('/src/assets/icons/static/icons-outlined-200.woff2') format('woff2'); font-weight: 200; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-300'; src: url('/src/assets/icons/static/icons-outlined-300.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-400'; src: url('/src/assets/icons/static/icons-outlined-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-500'; src: url('/src/assets/icons/static/icons-outlined-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-600'; src: url('/src/assets/icons/static/icons-outlined-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined-700'; src: url('/src/assets/icons/static/icons-outlined-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-100'; src: url('/src/assets/icons/static/icons-rounded-100.woff2') format('woff2'); font-weight: 100; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-200'; src: url('/src/assets/icons/static/icons-rounded-200.woff2') format('woff2'); font-weight: 200; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-300'; src: url('/src/assets/icons/static/icons-rounded-300.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-400'; src: url('/src/assets/icons/static/icons-rounded-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-500'; src: url('/src/assets/icons/static/icons-rounded-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-600'; src: url('/src/assets/icons/static/icons-rounded-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-rounded-700'; src: url('/src/assets/icons/static/icons-rounded-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-100'; src: url('/src/assets/icons/static/icons-sharp-100.woff2') format('woff2'); font-weight: 100; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-200'; src: url('/src/assets/icons/static/icons-sharp-200.woff2') format('woff2'); font-weight: 200; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-300'; src: url('/src/assets/icons/static/icons-sharp-300.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-400'; src: url('/src/assets/icons/static/icons-sharp-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-500'; src: url('/src/assets/icons/static/icons-sharp-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-600'; src: url('/src/assets/icons/static/icons-sharp-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-sharp-700'; src: url('/src/assets/icons/static/icons-sharp-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: block; }
+@font-face { font-family: 'icons-outlined'; font-style: normal; font-weight: 100 700; font-display: block; src: url('/src/assets/icons/icons-outlined.woff2') format('woff2'); }
+@font-face { font-family: 'icons-rounded'; font-style: normal; font-weight: 100 700; font-display: block; src: url('/src/assets/icons/icons-rounded.woff2') format('woff2'); }
+@font-face { font-family: 'icons-sharp'; font-style: normal; font-weight: 100 700; font-display: block; src: url('/src/assets/icons/icons-sharp.woff2') format('woff2'); }
+
+.icons {
+    display: inline-block;
+    font-family: 'icons-outlined';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --icons-fill: 0;
+    --icons-weight: 400;
+    --icons-grade: 0;
+    --icons-optical-size: 24;
+    font-variation-settings:
+        'FILL' var(--icons-fill),
+        'wght' var(--icons-weight),
+        'GRAD' var(--icons-grade),
+        'opsz' var(--icons-optical-size);
+}
+
+.icons.outlined { font-family: 'icons-outlined'; }
+.icons.rounded { font-family: 'icons-rounded'; }
+.icons.sharp { font-family: 'icons-sharp'; }
+
+.icons.fill { --icons-fill: 1; }
+
+.icons.weight-100 { --icons-weight: 100; font-weight: 100; }
+.icons.weight-200 { --icons-weight: 200; font-weight: 200; }
+.icons.weight-300 { --icons-weight: 300; font-weight: 300; }
+.icons.weight-400 { --icons-weight: 400; font-weight: 400; }
+.icons.weight-500 { --icons-weight: 500; font-weight: 500; }
+.icons.weight-600 { --icons-weight: 600; font-weight: 600; }
+.icons.weight-700 { --icons-weight: 700; font-weight: 700; }
+
+.icons.size-16px { --icon-optical-size: 16; font-size: 16px; }
+.icons.size-20px { --icon-optical-size: 20; font-size: 20px; }
+.icons.size-24px { --icon-optical-size: 24; font-size: 24px; }
+.icons.size-32px { --icon-optical-size: 32; font-size: 32px; }
+.icons.size-40px { --icon-optical-size: 40; font-size: 40px; }
+.icons.size-48px { --icon-optical-size: 48; font-size: 48px; }
+.icons.size-64px { --icon-optical-size: 64; font-size: 64px; }
+
+.icons.outlined-100 { font-family: 'icons-outlined-100'; font-weight: 100; }
+.icons.outlined-200 { font-family: 'icons-outlined-200'; font-weight: 200; }
+.icons.outlined-300 { font-family: 'icons-outlined-300'; font-weight: 300; }
+.icons.outlined-400 { font-family: 'icons-outlined-400'; font-weight: 400; }
+.icons.outlined-500 { font-family: 'icons-outlined-500'; font-weight: 500; }
+.icons.outlined-600 { font-family: 'icons-outlined-600'; font-weight: 600; }
+.icons.outlined-700 { font-family: 'icons-outlined-700'; font-weight: 700; }
+
+.icons.rounded-100 { font-family: 'icons-rounded-100'; font-weight: 100; }
+.icons.rounded-200 { font-family: 'icons-rounded-200'; font-weight: 200; }
+.icons.rounded-300 { font-family: 'icons-rounded-300'; font-weight: 300; }
+.icons.rounded-400 { font-family: 'icons-rounded-400'; font-weight: 400; }
+.icons.rounded-500 { font-family: 'icons-rounded-500'; font-weight: 500; }
+.icons.rounded-600 { font-family: 'icons-rounded-600'; font-weight: 600; }
+.icons.rounded-700 { font-family: 'icons-rounded-700'; font-weight: 700; }
+
+.icons.sharp-100 { font-family: 'icons-sharp-100'; font-weight: 100; }
+.icons.sharp-200 { font-family: 'icons-sharp-200'; font-weight: 200; }
+.icons.sharp-300 { font-family: 'icons-sharp-300'; font-weight: 300; }
+.icons.sharp-400 { font-family: 'icons-sharp-400'; font-weight: 400; }
+.icons.sharp-500 { font-family: 'icons-sharp-500'; font-weight: 500; }
+.icons.sharp-600 { font-family: 'icons-sharp-600'; font-weight: 600; }
+.icons.sharp-700 { font-family: 'icons-sharp-700'; font-weight: 700; }
